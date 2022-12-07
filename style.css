@@ -1,0 +1,140 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif, sans-serif;
+	background: rgb(63, 62, 62);
+	
+}
+
+
+body {
+	background-image: linear-gradient(120deg, rgb(82, 79, 79) 0%, #7bd6d6 100%);
+	color: white;
+	font-family: "Poppins", sans-serif;
+	min-height: 100vh;
+  }
+
+.inputbox
+{
+	width: 25em;
+    height: 4em;
+    box-shadow: 0px 0px 10px var(--clr-gray-med);
+    margin: 15px 90px;
+    background-color: white;
+	border-radius: 5px;
+	text-align: center;
+}
+
+
+button
+{
+	width: 3em;
+    height: 3em;
+	font-size: 14px;
+	color: white;
+}
+
+
+#All, #Active, #Completed
+{
+	width: 6em;
+    height: 3em;
+	font-size: 14px;
+	color: white;
+	margin-right: 5px;
+	border-radius: 5px;
+	position: relative;
+	left: 25%
+	
+}
+
+
+.newBox{
+    
+    width: 15em;
+    height: 2em;
+    box-shadow: 0px 0px 10px var(--clr-gray-med);
+    margin: 0 1em 1em 0;
+    background-color: white;
+	color: black;
+	border-radius: 5px;
+    
+}
+
+
+.container {
+    background: rgba(45, 46, 48, 0.479);
+	background-position: center;
+	background-size: cover;
+	box-sizing: border-box;
+	margin: 15px 200px;
+	height: 85%;
+	width: 60%;
+	border-radius: 35px;
+  
+}
+
+.crossed {
+	text-decoration: line-through;
+}
+
+.completed{
+	text-decoration:  line-through;
+}
+
+ul {
+	list-style: none;
+}
+
+
+.deleteButton
+{
+    background: red;
+	color: white;
+	border: 2px;
+	padding: 1px;
+	cursor: pointer;
+	font-size: 5px;
+	float: center;
+    width: 2em;
+    height: 2em;
+	font-size: 12px;
+    float: right;
+   
+
+}
+
+.complete-btn{
+    width: 2em;
+    height: 2em;
+	font-size: 12px;
+    float: right;
+
+}
+
+.list{
+
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5) );
+	background-position: center;
+	background-size: cover;
+	box-sizing: border-box;
+	margin: 15px 345px;
+	height: 1;
+	width: 0;
+	border-radius: 35px;
+	display: hidden;
+}
+
+.select{
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5) );
+	background-position: center;
+	background-size: cover;
+	box-sizing: border-box;
+	margin: 15px 515px;
+	height: 85%;
+	width: 50%;
+	border-radius: 35px;
+
+}

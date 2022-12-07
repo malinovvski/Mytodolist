@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<head>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+    integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+    crossorigin="anonymous"
+  />
+</head>
+
+<body>
+    
+    <ol id="todoList"></ol>
+
+
+    <div class="select">
+        
+         
+    
+
+<div class = "container" id = "idcontainer">
+    <input type="text" class="inputbox" id="todoInput" placeholder="What you have to do ? " >
+    <button type="submit" class="addbutton" id="btn-add">  <i class="fas fa-plus-square"></i></button>
+    
+    <button onclick="showAll()" id="All">All</button>
+          <button onclick="showActive()" id="Active">Active</button>
+          <button onclick="showCompleted()" id="Completed">Completed</button>
+    
+</div>
+
+<div class = "list" id="task-container">
+    
+</div>   
+
+
+
+ 
+    
+<script src="script.js"></script>
+</body>
+
+</html>
